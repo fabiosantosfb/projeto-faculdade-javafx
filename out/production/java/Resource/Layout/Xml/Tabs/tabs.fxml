@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane fx:id="tabPane" fx:controller="Controller.Tabs.TabsController" xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml">
+<tabs>
+    <Tab fx:id="registerProprietario" text="Registrar Proprietário">
+        <fx:include fx:id="_registrarProprietario" source="registerProprietario.fxml"/>
+    </Tab>
+    <Tab fx:id="visualizarProprietario" text="Vizualizar Proprietário">
+        <fx:include fx:id="_visualizarProprietario" source="visualizarProprietario.fxml"/>
+    </Tab>
+    <Tab fx:id="atualizarProprietario" text="Alterar e remover Proprietário">
+        <fx:include fx:id="_atualizarProprietario" source="atualizarProprietario.fxml"/>
+    </Tab>
+</tabs>
+</TabPane>
